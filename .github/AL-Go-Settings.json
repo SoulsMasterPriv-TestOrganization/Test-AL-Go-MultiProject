@@ -3,5 +3,8 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "templateSha": "1e6ebb58fc629cc134759f996f9be9ab6ada7fb4",
   "useProjectDependencies" : true,
-  "DeployReferenceDocumentationSchedule": "0 4 * * *"
+  "DeployReferenceDocumentationSchedule": "0 4 * * *",
+  "alDoc": {
+    "continuousDeployment": true
+  }  
 }
